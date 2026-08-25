@@ -3,8 +3,11 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
+
+  base: '/Verticon-site/',
+
   server: {
-    host: '0.0.0.0', // Aceita conexões de qualquer dispositivo na rede local
+    host: '0.0.0.0',
     port: 5173,
     allowedHosts: true
   }

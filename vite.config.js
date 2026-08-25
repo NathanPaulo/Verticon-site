@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
 
-  base: '/Verticon-site/',
+  base: '/Vertcon-site/',
 
   server: {
     host: '0.0.0.0',
